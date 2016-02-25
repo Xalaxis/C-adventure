@@ -79,7 +79,7 @@ int main()
 	{
 		cout << "> ";
 		string whatamidoing;
-		cin >> whatamidoing;
+		getline(cin, whatamidoing);
 		if (whatamidoing == "status") //The player is asking for their status
 		{
 			status();
@@ -91,6 +91,8 @@ int main()
 		else if (whatamidoing == "credits") //The player wants to see the credits
 		{
 			cout << "Matthew Wolffsohn" << endl;
+			cout << "Leo Head" << endl;
+			cout << "Ryan Cochrane" << endl;
 		}
 		else if (whatamidoing == "exit") //The player wants to exit the game
 		{

@@ -1,3 +1,2 @@
 ﻿  main.cpp
-main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
-  GameGame.vcxproj -> C:\Users\Matthew\Documents\MEGAsync\Coding\C++\GameGame\Debug\GameGame.exe
+  GameGame.vcxproj -> C:\Users\Matthew\Documents\MEGAsync\Coding\C++\C-adventure\Debug\GameGame.exe

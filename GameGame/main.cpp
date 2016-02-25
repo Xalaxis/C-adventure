@@ -88,6 +88,10 @@ int main()
 		{
 			whereAmI();
 		}
+		else if (whatamidoing == "credits") //The player wants to see the credits
+		{
+			cout << "Matthew Wolffsohn" << endl;
+		}
 		else if (whatamidoing == "exit") //The player wants to exit the game
 		{
 			break;

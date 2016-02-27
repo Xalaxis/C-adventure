@@ -69,7 +69,7 @@ int main()
 	resetVar(); //Setup our variables (technically shouldn't be needed unless after a reset, but worth having anyway)
 	system("cls");
 	system("color 0A");
-	system("title Adventure Game Game");
+	system("title An Adventure");
 	initialSetup(); //Sets up settings
 	status(); //Call to show the player their status
 	whereAmI(); //Call to show the player where they are

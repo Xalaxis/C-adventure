@@ -69,7 +69,7 @@ int main()
 	resetVar(); //Setup our variables (technically shouldn't be needed unless after a reset, but worth having anyway)
 	system("cls");
 	system("color 0A");
-	system("title Adventure Game Game");
+	system("title An Adventure");
 	initialSetup(); //Sets up settings
 	status(); //Call to show the player their status
 	whereAmI(); //Call to show the player where they are
@@ -79,7 +79,7 @@ int main()
 	{
 		cout << "> ";
 		string whatamidoing;
-		cin >> whatamidoing;
+		getline(cin, whatamidoing);
 		if (whatamidoing == "status") //The player is asking for their status
 		{
 			status();
@@ -87,6 +87,12 @@ int main()
 		else if (whatamidoing == "where am i?") //The player wants to know where they are
 		{
 			whereAmI();
+		}
+		else if (whatamidoing == "credits") //The player wants to see the credits
+		{
+			cout << "Matthew Wolffsohn" << endl;
+			cout << "Leo Head" << endl;
+			cout << "Ryan Cochrane" << endl;
 		}
 		else if (whatamidoing == "exit") //The player wants to exit the game
 		{

@@ -48,9 +48,6 @@ void status() //What is the player's current status?
 		cout << "You are paralyzed" << endl;
 	cout << "============================" << endl;
 	cout << "Inventory:  " << endl;
-
-
-
 }
 
 
